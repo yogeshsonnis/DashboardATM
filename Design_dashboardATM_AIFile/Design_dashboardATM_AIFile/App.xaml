@@ -7,6 +7,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/ButtonResources.xaml" />
                 <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/SearchBoxStyleResource.xaml" />
+                <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/ScrollViewerStyleResource.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

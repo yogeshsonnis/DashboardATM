@@ -132,7 +132,7 @@
                         <Trigger Property="IsPressed"
                                  Value="True">
                             <Setter Property="Background"
-                                    Value="#FF345E9E" TargetName="grid"/>
+                                    Value="#0066CC" TargetName="grid"/>
                             <Setter Property="Fill"
                                     Value="White"
                                     TargetName="path" />

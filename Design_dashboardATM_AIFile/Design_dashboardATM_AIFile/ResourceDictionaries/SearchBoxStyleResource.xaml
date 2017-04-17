@@ -127,7 +127,7 @@
 
                             <Button x:Name="btnSearch"
                                     Content="Search"
-                                    Grid.Column="1" Style="{DynamicResource SearchButtonStyle}" Margin="2" />
+                                    Grid.Column="1" Style="{DynamicResource SearchButtonStyle}" Margin="5,3" />
 
                         </Grid>
                     </Border>
