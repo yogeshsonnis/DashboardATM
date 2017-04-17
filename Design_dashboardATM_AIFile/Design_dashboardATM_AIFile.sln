@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_dashboardATM_AIFile", "Design_dashboardATM_AIFile\Design_dashboardATM_AIFile.csproj", "{0fb52767-f411-405c-95fd-ed1611746096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FB52767-F411-405C-95FD-ED1611746096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB52767-F411-405C-95FD-ED1611746096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB52767-F411-405C-95FD-ED1611746096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB52767-F411-405C-95FD-ED1611746096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

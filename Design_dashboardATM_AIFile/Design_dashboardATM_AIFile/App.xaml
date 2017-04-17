@@ -1,0 +1,13 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Design_dashboardATM_AIFile.App"
+             StartupUri="Design_dashboardATM.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/ButtonResources.xaml" />
+                <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/SearchBoxStyleResource.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

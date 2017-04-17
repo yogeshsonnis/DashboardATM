@@ -1,0 +1,44 @@
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Design_dashboardATM_AIFile.exe.config
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Design_dashboardATM_AIFile.exe
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Design_dashboardATM_AIFile.pdb
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.csprojResolveAssemblyReference.cache
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\MainWindow.baml
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\ResourceDictionaries\ButtonResources.baml
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\App.baml
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM.g.cs
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\MainWindow.g.cs
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\App.g.cs
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile_MarkupCompile.cache
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile_MarkupCompile.lref
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM.baml
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Themes\Generic.baml
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.g.resources
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.Properties.Resources.resources
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.csproj.GenerateResource.Cache
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.exe
+D:\Gayatri\Nishant\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.pdb
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\MainWindow.baml
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\App.baml
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM.g.cs
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\MainWindow.g.cs
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\App.g.cs
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile_MarkupCompile.cache
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile_MarkupCompile.lref
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Design_dashboardATM_AIFile.exe.config
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Design_dashboardATM_AIFile.exe
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Design_dashboardATM_AIFile.pdb
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\ResourceDictionaries\SearchBoxStyleResource.baml
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM.baml
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\ResourceDictionaries\ButtonResources.baml
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Themes\Generic.baml
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.g.resources
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.Properties.Resources.resources
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.csproj.GenerateResource.Cache
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.exe
+D:\Gayatri\ATMNet Werbeagentur e.U\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.pdb
+D:\Gayatri\GithubProjects\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\bin\Debug\Design_dashboardATM_AIFile.exe.config
+D:\Gayatri\GithubProjects\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.exe
+D:\Gayatri\GithubProjects\Design_dashboardATM_AIFile\Design_dashboardATM_AIFile\obj\Debug\Design_dashboardATM_AIFile.pdb
