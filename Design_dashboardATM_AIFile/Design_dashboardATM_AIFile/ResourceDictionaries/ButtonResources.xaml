@@ -94,20 +94,30 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition />
-                            <RowDefinition Height="auto" />
-                        </Grid.RowDefinitions>
-                        <Path  Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
-                               Fill="#FFE6E7E8"
-                               Height="23"
-                               Canvas.Left="2.808"
-                               Canvas.Top="84.936"
-                               Width="21.501" />
-                        <TextBlock Text="{TemplateBinding Content}"
-                                   Grid.Row="1"
-                                   VerticalAlignment="Center"
+                        <StackPanel>
+                            <Path  Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
+                                   Fill="#FFE6E7E8"
                                    HorizontalAlignment="Center" />
+                            <TextBlock Text="{TemplateBinding Content}"
+                                       Grid.Row="1"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center" />
+                        </StackPanel>
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="IconButtonWithoutTextStyle"
+           TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Path  Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
+                               Fill="#FFBCBEC0" Stretch="Uniform"/>
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>
@@ -121,7 +131,8 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid x:Name="grid" Background="Transparent">
+                    <Grid x:Name="grid"
+                          Background="Transparent">
                         <Path x:Name="path"
                               Data="F1M6.5,11C4.01,11 2,8.99 2,6.5 2,4.01 4.01,2 6.5,2 8.99,2 11,4.01 11,6.5 11,8.99 8.99,11 6.5,11 M12.5,11L11.71,11 11.43,10.73C12.41,9.59 13,8.11 13,6.5 13,2.91 10.09,0 6.5,0 2.91,0 0,2.91 0,6.5 0,10.09 2.91,13 6.5,13 8.11,13 9.59,12.41 10.73,11.43L11,11.71 11,12.5 16,17.49 17.49,16z"
                               Fill="#FFBCBEC0"
@@ -132,7 +143,8 @@
                         <Trigger Property="IsPressed"
                                  Value="True">
                             <Setter Property="Background"
-                                    Value="#0066CC" TargetName="grid"/>
+                                    Value="#0066CC"
+                                    TargetName="grid" />
                             <Setter Property="Fill"
                                     Value="White"
                                     TargetName="path" />

@@ -9,6 +9,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Design_dashboardATM_AIFile.CommonControl;
+using Microsoft.Windows.Themes;
 using System;
 using System.Diagnostics;
 using System.Windows;

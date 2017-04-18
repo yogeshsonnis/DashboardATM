@@ -6,7 +6,7 @@
     <Style x:Key="WatermarkTextBoxStyle"
            TargetType="{x:Type toolkit:WatermarkTextBox}">
         <Setter Property="Foreground"
-                Value="White" />
+                Value="#FFA7A9AC" />
         <Setter Property="Background"
                 Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" />
         <Setter Property="BorderBrush"
@@ -28,7 +28,7 @@
             <Setter.Value>
                 <DataTemplate>
                     <ContentControl Content="{Binding}"
-                                    Foreground="White"
+                                    Foreground="#FFA7A9AC"
                                     Focusable="False" />
                 </DataTemplate>
             </Setter.Value>
@@ -115,9 +115,9 @@
                             <toolkit:WatermarkTextBox Watermark="{TemplateBinding Text}"
                                                       Margin="2"
                                                       Background="{x:Null}"
-                                                      Foreground="White"
+                                                      Foreground="#FFA7A9AC"
                                                       BorderBrush="{x:Null}"
-                                                      CaretBrush="White"
+                                                      CaretBrush="#FFA7A9AC"
                                                       Style="{DynamicResource WatermarkTextBoxStyle}" />
 
                             <Path Data="M0.499,0L0.499,27.5"
