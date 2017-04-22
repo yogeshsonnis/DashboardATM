@@ -5,10 +5,12 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/ButtonResources.xaml" />
+                <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/ButtonStyleResource.xaml" />
                 <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/SearchBoxStyleResource.xaml" />
                 <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/ScrollViewerStyleResource.xaml" />
                 <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/DataGridStyleResource.xaml" />
+                <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/RadioButtonStyleResource.xaml" />
+                <ResourceDictionary Source="/Design_dashboardATM_AIFile;component/ResourceDictionaries/TabControlStyleResource.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

@@ -93,18 +93,36 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <StackPanel>
-                            <Path  Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
-                                   Fill="#FFE6E7E8"
-                                   HorizontalAlignment="Center" />
-                            <TextBlock Text="{TemplateBinding Content}"
+                    <Grid x:Name="grid"
+                          Background="Transparent">
+                        <StackPanel VerticalAlignment="Center">
+                            <Path x:Name="path"
+                                  Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
+                                  Fill="#FFE6E7E8"
+                                  HorizontalAlignment="Center" />
+                            <TextBlock x:Name="text"
+                                       Text="{TemplateBinding Content}"
                                        Grid.Row="1"
                                        VerticalAlignment="Center"
                                        HorizontalAlignment="Center" />
                         </StackPanel>
 
                     </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed"
+                                 Value="True">
+                            <Setter Property="Background"
+                                    Value="#FFC66526"
+                                    TargetName="grid" />
+                            <Setter Property="Fill"
+                                    Value="White"
+                                    TargetName="path" />
+                            <Setter Property="Foreground"
+                                    Value="White"
+                                    TargetName="text" />
+
+                        </Trigger>
+                    </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
@@ -115,14 +133,46 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="grid"
+                          Background="Transparent">
+                        <Path x:Name="path"
+                              Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
+                              Fill="#FFBCBEC0"                              
+                              HorizontalAlignment="Center"
+                              VerticalAlignment="Center"
+                               />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed"
+                                 Value="True">
+                            <!--<Setter Property="Background"
+                                    Value="#FFC66526"
+                                    TargetName="grid" />-->
+                            <Setter Property="Fill"
+                                    Value="White"
+                                    TargetName="path" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="SliderButtonWithoutTextStyle"
+           TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
                         <Path  Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
-                               Fill="#FFBCBEC0" Stretch="Uniform"/>
+                               Fill="White"
+                               Stretch="Uniform" />
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
     </Style>
+
 
     <Style x:Key="SearchButtonStyle"
            TargetType="{x:Type Button}">
@@ -143,8 +193,38 @@
                         <Trigger Property="IsPressed"
                                  Value="True">
                             <Setter Property="Background"
-                                    Value="#0066CC"
+                                    Value="#FFC66526"
                                     TargetName="grid" />
+                            <Setter Property="Fill"
+                                    Value="White"
+                                    TargetName="path" />
+
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="SliderButtonStyle"
+           TargetType="{x:Type Button}">
+        <Setter Property="Foreground"
+                Value="#FFE6E7E8" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="grid"
+                          Background="Transparent">
+                        <Path x:Name="path"
+                              Data="{TemplateBinding AttachedProperties:AdditionalAttachedProperties.PathData}"
+                              Fill="#FF58595B"
+                              Height="22.5"
+                              Width="13.894"
+                              HorizontalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed"
+                                 Value="true">
                             <Setter Property="Fill"
                                     Value="White"
                                     TargetName="path" />

@@ -1,7 +1,9 @@
-﻿using Design_dashboardATM_AIFile.CommonControl;
+﻿using Design_dashboardATM_AIFile.Classes;
+using Design_dashboardATM_AIFile.CommonControl;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,99 +23,26 @@ namespace Design_dashboardATM_AIFile
     /// </summary>
     public partial class Design_dashboardATM : CustomWindow
     {
-        public ObservableCollection<string> CalculationCollection { get; set; }
-        public ObservableCollection<string> TagsCollection { get; set; }
-        public ObservableCollection<string> ProductsCollection { get; set; }
+
         public Design_dashboardATM()
         {
             InitializeComponent();
-            this.DataContext = new ProjectVM();
-            LoadCalculationCollection();
-            LoadTagsCollection();
-            LoadProductsCollection();
+            this.DataContext = new ATM_ViewModel();
         }
-        public void LoadCalculationCollection()
+        
+        private void prevButton_Click(object sender, RoutedEventArgs e)
         {
-            CalculationCollection = new ObservableCollection<string>();
+            if (sliderListbox.SelectedIndex > 0)
+                sliderListbox.SelectedIndex--;
+            sliderListbox.ScrollIntoView(sliderListbox.SelectedItem);
 
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-            CalculationCollection.Add("Stingray Calc 1");
-
-            searchListbox.ItemsSource = CalculationCollection;
         }
-        public void LoadTagsCollection()
+
+        private void nextButton_Click(object sender, RoutedEventArgs e)
         {
-            TagsCollection = new ObservableCollection<string>();
-
-            TagsCollection.Add("Summen");
-            TagsCollection.Add("Lutz");
-            TagsCollection.Add("Vektoren");
-            TagsCollection.Add("Verhaltnis");
-            TagsCollection.Add("Induktion");
-            TagsCollection.Add("Summen");
-            TagsCollection.Add("Lutz");
-            TagsCollection.Add("Vektoren");
-            TagsCollection.Add("Verhaltnis");
-            TagsCollection.Add("Induktion");
-
-            tagsListbox.ItemsSource = TagsCollection;
+            if (sliderListbox.SelectedIndex < sliderListbox.Items.Count - 1)
+                sliderListbox.SelectedIndex++;
+            sliderListbox.ScrollIntoView(sliderListbox.SelectedItem);
         }
-        public void LoadProductsCollection()
-        {
-            ProductsCollection = new ObservableCollection<string>();
-
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-            ProductsCollection.Add("Stingray System");
-
-            productsListbox.ItemsSource = ProductsCollection;
-        }
-    }
-
-    public class ProjectModel
-    {
-        public string Project { get; set; }
-        public string Produkt { get; set; }
-        public string CalculationName { get; set; }
-        public string Tags { get; set; }
-        public string User { get; set; }
-        public string Date { get; set; }
-    }
-
-    public class ProjectVM
-    {
-        public ObservableCollection<ProjectModel> ProjectCollection { get; set; }
-
-        public ProjectVM()
-        {
-            LoadProjectCollection();
-        }
-        public void LoadProjectCollection()
-        {
-            ProjectCollection = new ObservableCollection<ProjectModel>();
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-            ProjectCollection.Add(new ProjectModel { Project = "Project 1", Produkt = "Stingray System", CalculationName = "Calc1", Tags = "Lutz,Vektoren", User = "Hetzmannseder", Date = "27.02.2017" });
-        }
-
     }
 }
